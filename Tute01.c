@@ -17,7 +17,7 @@ int main() {
    cal=m1+m2;
    avg=cal/2;
    
-   printf("Average is=%.1f",avg);
+   printf("Average is=%.1f ",avg);
   
   return 0;
 }

@@ -15,40 +15,40 @@ int main() {
    scanf("%d", &no1);
    printf("Enter a value for no 2 : ");
    scanf("%d", &no2);
-   printf("Minimum number is=%d \n", minimum(no1, no2));
-   printf("Maximum number is=%d \n", maximum(no1, no2));
-   printf("Multiply is=%d \n", multiply(no1, no2));
+   printf("Minimum number is:%d \n", minimum(no1, no2));
+   printf("Maximum number is:%d \n", maximum(no1, no2));
+   printf("Multiply is:%d ", multiply(no1, no2));
    return 0;
 }
 
 int minimum(int n1,int n2)
 {
-  int min;
+  int m;
 
   if(n1<n2)
   {
-    min=n1;
+    m=n1;
   }
   else
   {
-    min=n2;
+    m=n2;
   }
-  return min;
+  return m;
 }
 
 int maximum(int n1,int n2)
 {
-  int max;
+  int M;
 
   if(n1>n2)
   {
-    max=n1;
+    M=n1;
   }
   else
   {
-    max=n2;
+    M=n2;
   }
-  return max;
+  return M;
 }
 
 int multiply(int n1,int n2)
